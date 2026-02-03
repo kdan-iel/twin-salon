@@ -40,10 +40,10 @@ export function HomePage() {
   ];
 
   const stats = [
-    { icon: Users, number: '500+', label: 'Happy Clients', labelFr: 'Clients Satisfaites' },
+    { icon: Users, number: '100+', label: 'Happy Clients', labelFr: 'Clients Satisfaites' },
     { icon: Award, number: '5+', label: 'Years Experience', labelFr: 'Années d\'Expérience' },
     { icon: Sparkles, number: '50+', label: 'Services', labelFr: 'Services' },
-    { icon: Clock, number: '24/7', label: 'Support Available', labelFr: 'Support Disponible' }
+    { icon: Clock, number: '24/5', label: 'On Appointment', labelFr: 'Sur reservation' }
   ];
 
   const testimonials = [

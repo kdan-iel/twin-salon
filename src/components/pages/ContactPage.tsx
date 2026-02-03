@@ -7,7 +7,7 @@ import { Input } from '../ui/input';
 import { Label } from '../ui/label';
 import { Textarea } from '../ui/textarea';
 import { DynamicHero } from '../DynamicHero';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 export function ContactPage() {
   const { t } = useLanguage();
@@ -47,31 +47,30 @@ export function ContactPage() {
     {
       icon: MapPin,
       title: t('contact.address'),
-      content: ['123 Beauty Street', 'Downtown, City 12345', 'United States'],
+      content: ['123 Beauty Street', 'Lome, City 12345', 'Togo'],
       action: 'https://maps.google.com',
       actionText: 'Get Directions'
     },
     {
       icon: Phone,
       title: t('contact.phone'),
-      content: ['+1 (555) 123-4567'],
-      action: 'tel:+15551234567',
+      content: ['+228 79704777'],
+      action: 'tel:+22879704777',
       actionText: 'Call Now'
     },
     {
       icon: Mail,
       title: t('contact.email'),
-      content: ['info@twinssalon.com', 'booking@twinssalon.com'],
-      action: 'mailto:info@twinssalon.com',
+      content: ['adabadjinathacha@gmail.com'],
+      action: 'mailto:adabadjinathacha@gmail.com',
       actionText: 'Send Email'
     },
     {
       icon: Clock,
       title: t('contact.hours'),
       content: [
-        'Monday - Saturday: 9:00 AM - 8:00 PM',
-        'Sunday: 10:00 AM - 6:00 PM',
-        'Closed on major holidays'
+        'Tuesday - Saturday: Only on appointment',
+        'Closed on Mondays, Sundays and major holidays'
       ],
       action: null,
       actionText: null
@@ -87,7 +86,7 @@ export function ContactPage() {
           ? 'Nous serions ravis de vous entendre ! Contactez-nous pour réservations, questions, ou juste pour dire bonjour.'
           : 'We\'d love to hear from you! Get in touch for bookings, questions, or just to say hello.'
         }
-        backgroundImage="https://images.unsplash.com/photo-1710839006592-4fdfc6caca80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzYWxvbiUyMGNvbnRhY3QlMjBjb25zdWx0YXRpb24lMjBwcm9mZXNzaW9uYWx8ZW58MXx8fHwxNzU4NzIxMjE4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+        backgroundImage="../../../public/contact.png"
         height="h-[70vh] min-h-[500px]"
         overlay="gradient"
       />
@@ -257,7 +256,7 @@ export function ContactPage() {
 
           <div className="flex justify-center space-x-8">
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/twinssalon09?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
               target="_blank"
               rel="noopener noreferrer"
               className="group flex flex-col items-center"
@@ -271,7 +270,7 @@ export function ContactPage() {
             </a>
 
             <a
-              href="https://facebook.com"
+              href="https://www.tiktok.com/@twinssalon02?is_from_webapp=1&sender_device=pc"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex flex-col items-center"
@@ -280,12 +279,12 @@ export function ContactPage() {
                 <Facebook className="w-8 h-8 text-white" />
               </div>
               <span className="mt-3 text-gray-700 font-medium group-hover:text-pink-600 transition-colors">
-                Facebook
+                TikTok
               </span>
             </a>
 
             <a
-              href="https://wa.me/15551234567"
+              href="https://wa.me/22879704777"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex flex-col items-center"

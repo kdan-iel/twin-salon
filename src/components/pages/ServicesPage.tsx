@@ -16,7 +16,7 @@ export function ServicesPage() {
       icon: Scissors,
       title: t('services.hairdressing'),
       description: t('services.hairdressing.desc'),
-      image: 'https://images.unsplash.com/photo-1599387737838-660b75526801?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b21hbiUyMGdldHRpbmclMjBoYWlyJTIwc3R5bGVkJTIwc2Fsb258ZW58MXx8fHwxNzU4NjM1Njk2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: '../../../public/hair1.jpg',
       services: [
         { name: 'Women\'s Haircut', price: '$65-85', duration: '60 min' },
         { name: 'Men\'s Haircut', price: '$45-55', duration: '45 min' },
@@ -31,7 +31,7 @@ export function ServicesPage() {
       icon: Palette,
       title: t('services.makeup'),
       description: t('services.makeup.desc'),
-      image: 'https://images.unsplash.com/photo-1612883695890-f2ab22e65215?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxtYWtldXAlMjBhcnRpc3QlMjB3b3JraW5nfGVufDF8fHx8MTc1ODYzNTY5OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: '../../../public/makeup.jpg',
       services: [
         { name: 'Bridal Makeup', price: '$180-250', duration: '90 min' },
         { name: 'Special Event Makeup', price: '$100-150', duration: '60 min' },
@@ -46,7 +46,7 @@ export function ServicesPage() {
       icon: Sparkles,
       title: t('services.skincare'),
       description: t('services.skincare.desc'),
-      image: 'https://images.unsplash.com/photo-1643684460412-76908d8e5a25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGElMjBmYWNpYWwlMjB0cmVhdG1lbnQlMjByZWxheGluZ3xlbnwxfHx8fDE3NTg2MzU3MDN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: '../../../public/skincare1.jpg',
       services: [
         { name: 'Classic European Facial', price: '$90-120', duration: '75 min' },
         { name: 'Deep Cleansing Facial', price: '$100-130', duration: '90 min' },
@@ -61,7 +61,7 @@ export function ServicesPage() {
       icon: Heart,
       title: t('services.nails'),
       description: t('services.nails.desc'),
-      image: 'https://images.unsplash.com/photo-1650176491728-a5e6edd08575?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuYWlsJTIwYXJ0JTIwbWFuaWN1cmUlMjBzYWxvbnxlbnwxfHx8fDE3NTg2MzU3MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: '../../../public/nail.jpg',
       services: [
         { name: 'Classic Manicure', price: '$35-45', duration: '45 min' },
         { name: 'Gel Manicure', price: '$50-65', duration: '60 min' },
@@ -105,7 +105,7 @@ export function ServicesPage() {
           ? 'Découvrez notre gamme complète de services de beauté et bien-être conçus pour vous faire paraître et vous sentir au meilleur de votre forme.'
           : 'Discover our comprehensive range of beauty and wellness services designed to make you look and feel your absolute best.'
         }
-        backgroundImage="https://images.unsplash.com/photo-1737063935340-f9af0940c4c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBiZWF1dHklMjBzYWxvbiUyMHNlcnZpY2VzJTIwc3R5bGluZ3xlbnwxfHx8fDE3NTg3MjEyMDB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+        backgroundImage="../../../public/salon2.jpg"
         ctaText={t('booking.title').replace('Your ', '').replace('Votre ', '')}
         ctaLink="/booking"
         height="h-[70vh] min-h-[500px]"

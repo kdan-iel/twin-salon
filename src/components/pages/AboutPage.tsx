@@ -77,7 +77,7 @@ export function AboutPage() {
       <DynamicHero
         title={t('about.title')}
         description={t('about.intro')}
-        backgroundImage="https://images.unsplash.com/photo-1706973320004-98a2fe6ddb7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiZWF1dHklMjBzYWxvbiUyMHRlYW0lMjBwcm9mZXNzaW9uYWxzfGVufDF8fHx8MTc1ODcyMDA4MHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+        backgroundImage="../../../public/Salon.jpg"
         height="h-[70vh] min-h-[500px]"
         overlay="gradient"
       />
@@ -132,7 +132,7 @@ export function AboutPage() {
             >
               <div className="absolute inset-0 bg-gradient-to-br from-pink-100 to-purple-100 rounded-3xl transform -rotate-3"></div>
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1758188753373-5b01a0fc6d9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiZWF1dHklMjBzYWxvbiUyMGludGVyaW9yJTIwbHV4dXJ5fGVufDF8fHx8MTc1ODcyMDA0OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="../../../public/story.png"
                 alt="Twins Salon Interior"
                 className="relative z-10 w-full h-96 object-cover rounded-2xl shadow-xl"
               />

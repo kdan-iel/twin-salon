@@ -115,7 +115,7 @@ export function BookingPage() {
                     <MessageSquare className="w-5 h-5 text-pink-500" />
                     <span>{t('booking.form.service')} *</span>
                   </Label>
-                  <Select onValueChange={(value) => handleInputChange('service', value)}>
+                  <Select onValueChange={(value: string) => handleInputChange('service', value)}>
                     <SelectTrigger className="h-12 border-gray-300 focus:border-pink-500">
                       <SelectValue placeholder="Choose a service..." />
                     </SelectTrigger>
@@ -151,7 +151,7 @@ export function BookingPage() {
                       <Clock className="w-5 h-5 text-pink-500" />
                       <span>{t('booking.form.time')} *</span>
                     </Label>
-                    <Select onValueChange={(value) => handleInputChange('time', value)}>
+                    <Select onValueChange={(value: string) => handleInputChange('time', value)}>
                       <SelectTrigger className="h-12 border-gray-300 focus:border-pink-500">
                         <SelectValue placeholder="Select time..." />
                       </SelectTrigger>
@@ -199,7 +199,7 @@ export function BookingPage() {
                         value={formData.phone}
                         onChange={(e) => handleInputChange('phone', e.target.value)}
                         className="h-12 border-gray-300 focus:border-pink-500"
-                        placeholder="(555) 123-4567"
+                        placeholder="(228) 00000000"
                       />
                     </div>
 
@@ -214,7 +214,7 @@ export function BookingPage() {
                         value={formData.email}
                         onChange={(e) => handleInputChange('email', e.target.value)}
                         className="h-12 border-gray-300 focus:border-pink-500"
-                        placeholder="your@email.com"
+                        placeholder="your@gmail.com"
                       />
                     </div>
                   </div>
@@ -275,10 +275,10 @@ export function BookingPage() {
                   Speak directly with our team
                 </p>
                 <a 
-                  href="tel:+15551234567" 
+                  href="tel:+22879704777" 
                   className="text-pink-600 font-semibold hover:text-pink-700 transition-colors"
                 >
-                  +1 (555) 123-4567
+                  +228 79704777
                 </a>
               </CardContent>
             </Card>
@@ -295,7 +295,7 @@ export function BookingPage() {
                   Quick booking via WhatsApp
                 </p>
                 <a 
-                  href="https://wa.me/15551234567" 
+                  href="https://wa.me/22879704777" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-pink-600 font-semibold hover:text-pink-700 transition-colors"
@@ -317,10 +317,10 @@ export function BookingPage() {
                   Send us your booking details
                 </p>
                 <a 
-                  href="mailto:booking@twinssalon.com" 
+                  href="mailto:adabadjinathacha@gmail.com" 
                   className="text-pink-600 font-semibold hover:text-pink-700 transition-colors"
                 >
-                  booking@twinssalon.com
+                  adabadjinathacha@gmail.com
                 </a>
               </CardContent>
             </Card>

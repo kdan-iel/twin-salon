@@ -20,8 +20,8 @@ export function Footer() {
           {/* Logo & Slogan */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-gradient-to-br from-pink-500 to-pink-600 rounded-lg flex items-center justify-center">
-                <span className="font-bold text-white">TS</span>
+              <div className="w-10 h-10 bg-gradient-to-br  rounded-lg flex items-center justify-center">
+                <span className="font-bold text-white"><img src="../../public/logo.png" alt="Twins Salon Logo" className="w-15 h-15" /></span>
               </div>
               <div>
                 <div className="font-bold text-white">Twins Salon</div>
@@ -57,23 +57,23 @@ export function Footer() {
               <li className="flex items-start space-x-3">
                 <MapPin className="w-4 h-4 text-pink-400 mt-0.5 flex-shrink-0" />
                 <span className="text-gray-300 text-sm">
-                  123 Beauty Street<br />
-                  Downtown, City 12345
+                  N1 Lome<br />
+                  Togo
                 </span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-pink-400 flex-shrink-0" />
-                <span className="text-gray-300 text-sm">+1 (555) 123-4567</span>
+                <span className="text-gray-300 text-sm">+228 79704777</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-pink-400 flex-shrink-0" />
-                <span className="text-gray-300 text-sm">info@twinssalon.com</span>
+                <span className="text-gray-300 text-sm">adabadjinathacha@gmail.com</span>
               </li>
               <li className="flex items-start space-x-3">
                 <Clock className="w-4 h-4 text-pink-400 mt-0.5 flex-shrink-0" />
                 <div className="text-gray-300 text-sm">
-                  <div>Mon-Sat: 9:00 AM - 8:00 PM</div>
-                  <div>Sun: 10:00 AM - 6:00 PM</div>
+                  <div>Sun-Mon: Closed</div>
+                  <div>Tue - Sat: only on reservation</div>
                 </div>
               </li>
             </ul>
@@ -84,25 +84,28 @@ export function Footer() {
             <h3 className="font-semibold text-white mb-4">Follow Us</h3>
             <div className="flex space-x-4">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/twinssalon09?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Follow us on Instagram"
                 className="w-10 h-10 bg-pink-600 hover:bg-pink-700 rounded-lg flex items-center justify-center transition-colors"
               >
                 <Instagram className="w-5 h-5 text-white" />
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.tiktok.com/@twinssalon02?is_from_webapp=1&sender_device=pc"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Follow us on TikTok"
                 className="w-10 h-10 bg-pink-600 hover:bg-pink-700 rounded-lg flex items-center justify-center transition-colors"
               >
                 <Facebook className="w-5 h-5 text-white" />
               </a>
               <a
-                href="https://wa.me/1234567890"
+                href="https://wa.me/22879704777"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Contact us on WhatsApp"
                 className="w-10 h-10 bg-pink-600 hover:bg-pink-700 rounded-lg flex items-center justify-center transition-colors"
               >
                 <MessageCircle className="w-5 h-5 text-white" />
@@ -113,7 +116,7 @@ export function Footer() {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © 2024 Twins Salon. {t('footer.rights')}
+            © 2026 Twins Salon. {t('footer.rights')}
           </p>
         </div>
       </div>
