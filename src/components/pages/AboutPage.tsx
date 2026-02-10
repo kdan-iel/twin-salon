@@ -46,28 +46,28 @@ export function AboutPage() {
       role: t('nav.home') === 'Accueil' ? 'Styliste Maître & Co-Propriétaire' : 'Master Stylist & Co-Owner',
       specialties: t('nav.home') === 'Accueil' ? 'Coupe, Coloration, Coiffures de Mariage' : 'Hair Cutting, Coloring, Wedding Styles',
       experience: t('nav.home') === 'Accueil' ? '12 années' : '12 years',
-      image: 'https://images.unsplash.com/photo-1562940215-4314619607a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoYWlyJTIwc3R5bGlzdCUyMHNhbG9uJTIwdGVhbXxlbnwxfHx8fDE3NTg2MzU3NTV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+      image: '/twin.png'
     },
     {
       name: 'Emma Rodriguez',
       role: t('nav.home') === 'Accueil' ? 'Artiste Maquillage Senior' : 'Senior Makeup Artist',
       specialties: t('nav.home') === 'Accueil' ? 'Maquillage Mariée, Événements, Séances Photo' : 'Bridal Makeup, Special Events, Photoshoots',
       experience: t('nav.home') === 'Accueil' ? '8 années' : '8 years',
-      image: 'https://images.unsplash.com/photo-1606158436222-1896b18c5d25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYWtldXAlMjBhcnRpc3QlMjBhcHBseWluZyUyMGNvc21ldGljc3xlbnwxfHx8fDE3NTg3MjAwNjd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+      image: '/twin.png'
     },
     {
       name: 'Lisa Chen',
       role: t('nav.home') === 'Accueil' ? 'Spécialiste Spa & Soins du Visage' : 'Spa & Skincare Specialist',
       specialties: t('nav.home') === 'Accueil' ? 'Soins du Visage, Traitements Anti-âge, Thérapie Relaxation' : 'Facials, Anti-aging Treatments, Relaxation Therapy',
       experience: t('nav.home') === 'Accueil' ? '10 années' : '10 years',
-      image: 'https://images.unsplash.com/photo-1672015521020-ab4f86d5cc00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGElMjB3ZWxsbmVzcyUyMG1hc3NhZ2UlMjByZWxheGF0aW9ufGVufDF8fHx8MTc1ODcyMDA2M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+      image: '/twin.png'
     },
     {
       name: 'Maria Gonzalez',
       role: t('nav.home') === 'Accueil' ? 'Artiste Ongles & Co-Propriétaire' : 'Nail Artist & Co-Owner',
       specialties: t('nav.home') === 'Accueil' ? 'Nail Art, Extensions Gel, Thérapie Pédicure' : 'Nail Art, Gel Extensions, Pedicure Therapy',
       experience: t('nav.home') === 'Accueil' ? '9 années' : '9 years',
-      image: 'https://images.unsplash.com/photo-1599316329891-19df7fa9580d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwbWFuaWN1cmUlMjBuYWlsJTIwYXJ0fGVufDF8fHx8MTc1ODcyMDA3MXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+      image: '/twin.png'
     }
   ];
 
@@ -77,7 +77,7 @@ export function AboutPage() {
       <DynamicHero
         title={t('about.title')}
         description={t('about.intro')}
-        backgroundImage="../../../public/Salon.jpg"
+        backgroundImage="/salon.jpg"
         height="h-[70vh] min-h-[500px]"
         overlay="gradient"
       />
@@ -99,7 +99,7 @@ export function AboutPage() {
                 {t('nav.home') === 'Accueil' ? (
                   <>
                     <p>
-                      Fondé en 2020 par les sœurs jumelles Sarah et Maria, Twins Salon est né d'une passion commune pour la beauté et le bien-être. En grandissant ensemble, elles ont toujours rêvé de créer un espace où les gens pourraient se sentir choyés, beaux et confiants.
+                      Fondé en 2020 par les sœurs jumelles Nathalie et Natacha, Twins Salon est né d'une passion commune pour la beauté et le bien-être. En grandissant ensemble, elles ont toujours rêvé de créer un espace où les gens pourraient se sentir choyés, beaux et confiants.
                     </p>
                     <p>
                       Ce qui a commencé comme un petit salon de quartier est devenu une destination beauté de premier plan, grâce à notre engagement envers l'excellence et notre équipe extraordinaire de professionnels qualifiés. Nous croyons que la beauté ne consiste pas seulement à avoir une belle apparence, mais à se sentir bien de l'intérieur.
@@ -111,7 +111,7 @@ export function AboutPage() {
                 ) : (
                   <>
                     <p>
-                      Founded in 2020 by twin sisters Sarah and Maria, Twins Salon was born from a shared passion for beauty and wellness. Growing up together, they always dreamed of creating a space where people could feel pampered, beautiful, and confident.
+                      Founded in 2020 by twin sisters Nathalie and Natacha, Twins Salon was born from a shared passion for beauty and wellness. Growing up together, they always dreamed of creating a space where people could feel pampered, beautiful, and confident.
                     </p>
                     <p>
                       What started as a small neighborhood salon has grown into a premier beauty destination, thanks to our commitment to excellence and our amazing team of skilled professionals. We believe that beauty is not just about looking good, but feeling great from the inside out.
@@ -132,7 +132,7 @@ export function AboutPage() {
             >
               <div className="absolute inset-0 bg-gradient-to-br from-pink-100 to-purple-100 rounded-3xl transform -rotate-3"></div>
               <ImageWithFallback
-                src="../../../public/story.png"
+                src="/story.png"
                 alt="Twins Salon Interior"
                 className="relative z-10 w-full h-96 object-cover rounded-2xl shadow-xl"
               />

@@ -86,7 +86,7 @@ export function ContactPage() {
           ? 'Nous serions ravis de vous entendre ! Contactez-nous pour réservations, questions, ou juste pour dire bonjour.'
           : 'We\'d love to hear from you! Get in touch for bookings, questions, or just to say hello.'
         }
-        backgroundImage="../../../public/contact.png"
+        backgroundImage="/contact.png"
         height="h-[70vh] min-h-[500px]"
         overlay="gradient"
       />

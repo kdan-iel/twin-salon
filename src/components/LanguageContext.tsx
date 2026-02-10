@@ -31,7 +31,7 @@ const translations = {
     'about.title': 'About Twins Salon',
     'about.intro': 'Welcome to Twins Salon, where beauty meets excellence. We are dedicated to providing you with the finest beauty and wellness services in an elegant, relaxing environment.',
     'about.mission': 'Our Mission',
-    'about.mission.text': 'To enhance your natural beauty while providing an exceptional experience that leaves you feeling confident and radiant.',
+    'about.mission.text': ' To beautify women, restore their confidence, let them know they are valuable, that they deserve to be honored and above all bring a smile to those who sometimes come to the salon feeling sad.',
     
     // Services
     'services.title': 'Our Services',
@@ -143,7 +143,7 @@ const translations = {
     'about.title': 'À Propos de Twins Salon',
     'about.intro': 'Bienvenue chez Twins Salon, où la beauté rencontre l\'excellence. Nous nous consacrons à vous offrir les meilleurs services de beauté et de bien-être dans un environnement élégant et relaxant.',
     'about.mission': 'Notre Mission',
-    'about.mission.text': 'Sublimer votre beauté naturelle tout en vous offrant une expérience exceptionnelle qui vous laisse confiante et rayonnante.',
+    'about.mission.text': 'Embellir les femmes, leur redonner confiance, leur faire savoir qu\'elles ont de la valeur, qu\'elles sont a honorer et surtout apporter du sourir a ces personnes qui parfois viennent triste au salon.',
     
     // Services
     'services.title': 'Nos Services',

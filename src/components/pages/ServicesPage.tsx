@@ -16,7 +16,7 @@ export function ServicesPage() {
       icon: Scissors,
       title: t('services.hairdressing'),
       description: t('services.hairdressing.desc'),
-      image: '../../../public/hair1.jpg',
+      image: '/hair1.jpg',
       services: [
         { name: 'Women\'s Haircut', price: '$65-85', duration: '60 min' },
         { name: 'Men\'s Haircut', price: '$45-55', duration: '45 min' },
@@ -31,7 +31,7 @@ export function ServicesPage() {
       icon: Palette,
       title: t('services.makeup'),
       description: t('services.makeup.desc'),
-      image: '../../../public/makeup.jpg',
+      image: '/makeup.jpg',
       services: [
         { name: 'Bridal Makeup', price: '$180-250', duration: '90 min' },
         { name: 'Special Event Makeup', price: '$100-150', duration: '60 min' },
@@ -46,7 +46,7 @@ export function ServicesPage() {
       icon: Sparkles,
       title: t('services.skincare'),
       description: t('services.skincare.desc'),
-      image: '../../../public/skincare1.jpg',
+      image: '/skincare1.jpg',
       services: [
         { name: 'Classic European Facial', price: '$90-120', duration: '75 min' },
         { name: 'Deep Cleansing Facial', price: '$100-130', duration: '90 min' },
@@ -61,7 +61,7 @@ export function ServicesPage() {
       icon: Heart,
       title: t('services.nails'),
       description: t('services.nails.desc'),
-      image: '../../../public/nail.jpg',
+      image: '/nail.jpg',
       services: [
         { name: 'Classic Manicure', price: '$35-45', duration: '45 min' },
         { name: 'Gel Manicure', price: '$50-65', duration: '60 min' },
@@ -105,7 +105,7 @@ export function ServicesPage() {
           ? 'Découvrez notre gamme complète de services de beauté et bien-être conçus pour vous faire paraître et vous sentir au meilleur de votre forme.'
           : 'Discover our comprehensive range of beauty and wellness services designed to make you look and feel your absolute best.'
         }
-        backgroundImage="../../../public/salon2.jpg"
+        backgroundImage="/salon2.jpg"
         ctaText={t('booking.title').replace('Your ', '').replace('Votre ', '')}
         ctaLink="/booking"
         height="h-[70vh] min-h-[500px]"

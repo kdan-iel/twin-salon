@@ -7,7 +7,7 @@ import { Button } from '../ui/button';
 import { Card, CardContent } from '../ui/card';
 import { ImageWithFallback } from '../figma/ImageWithFallback';
 import { DynamicHero } from '../DynamicHero';
-import originalLogo from '../../../public/logo.png';
+import originalLogo from '/logo.png';
 
 export function HomePage() {
   const { t } = useLanguage();
@@ -17,32 +17,32 @@ export function HomePage() {
       icon: Scissors,
       title: t('services.hairdressing'),
       description: t('services.hairdressing.desc'),
-      image: '../../../public/hair.jpg'
+      image: '/hair.jpg'
     },
     {
       icon: Palette,
       title: t('services.makeup'),
       description: t('services.makeup.desc'),
-      image: '../../../public/makeup.jpg'
+      image: '/makeup.jpg'
     },
     {
       icon: Sparkles,
       title: t('services.skincare'),
       description: t('services.skincare.desc'),
-      image: '../../../public/skincare.jpg'
+      image: '/skincare.jpg'
     },
     {
       icon: Heart,
       title: t('services.nails'),
       description: t('services.nails.desc'),
-      image: '../../../public/nail1.jpg'
+      image: '/nail1.jpg'
     }
   ];
 
   const stats = [
     { icon: Users, number: '100+', label: 'Happy Clients', labelFr: 'Clients Satisfaites' },
-    { icon: Award, number: '5+', label: 'Years Experience', labelFr: 'Années d\'Expérience' },
-    { icon: Sparkles, number: '50+', label: 'Services', labelFr: 'Services' },
+    { icon: Award, number: '6+', label: 'Years Experience', labelFr: 'Années d\'Expérience' },
+    { icon: Sparkles, number: '30+', label: 'Services', labelFr: 'Services' },
     { icon: Clock, number: '24/5', label: 'On Appointment', labelFr: 'Sur reservation' }
   ];
 
@@ -71,7 +71,7 @@ export function HomePage() {
         title={t('hero.title')}
         subtitle={t('hero.slogan')}
         description={t('hero.subtitle')}
-        backgroundImage="https://images.unsplash.com/photo-1758188753373-5b01a0fc6d9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiZWF1dHklMjBzYWxvbiUyMGludGVyaW9yJTIwbHV4dXJ5fGVufDF8fHx8MTc1ODcyMDA0OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+        backgroundImage="/salon.jpg"
         ctaText={t('hero.cta')}
         ctaLink="/booking"
         height="h-[90vh] min-h-[700px]"
@@ -138,7 +138,7 @@ export function HomePage() {
             >
               <div className="absolute inset-0 bg-gradient-to-br from-pink-100 to-purple-100 rounded-3xl transform rotate-3"></div>
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1706973320004-98a2fe6ddb7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiZWF1dHklMjBzYWxvbiUyMHRlYW0lMjBwcm9mZXNzaW9uYWxzfGVufDF8fHx8MTc1ODcyMDA4MHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="/twin.png"
                 alt="Professional salon team"
                 className="relative z-10 w-full h-96 object-cover rounded-2xl shadow-xl"
               />
